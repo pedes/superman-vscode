@@ -1,0 +1,45 @@
+{
+    "name": "superman-vscode",
+    "displayName": "Super Theme",
+    "description": "A minimalistic superman theme",
+    "version": "0.1.0",
+    "author": {
+        "name": "Andres Cespedes Morales",
+        "email": "andrespedes@gmail.com"
+    },
+    "publisher": "pedes",
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "keywords": [
+        "Superman",
+        "Theme",
+        "Dark Theme"
+    ],
+    "categories": [
+        "Themes"
+    ],
+    "bugs": {
+        "url": "https://github.com/pedes/superman-vscode/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pedes/superman-vscode"
+    },
+    "license": "SEE LICENSE IN LICENSE.txt",
+    "homepage": "https://github.com/pedes/superman-vscode/blob/main/README.md",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Superman",
+                "uiTheme": "vs-dark",
+                "path": "./themes/superman-color-theme.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "semver": "^7.1.1",
+        "vsce": "^1.66.0"
+    }
+}
