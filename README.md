@@ -5,3 +5,6 @@ VS Code Theme with minimalistic setup and superman-related colors.
 - Launch VS Code quick open (CTRL + P)
 - Paste this command   `ext install AndresCespedesMorales.superman-vscode`
 - Press Enter :)
+
+## Contributions
+- Please open an issue or create the pull request with the fix
